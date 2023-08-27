@@ -5,7 +5,7 @@ import { Menu } from "@mui/icons-material";
 
 const Navbar = () => {
   return (
-    <Box bgcolor="white" width="100%" height={80} mb={3}>
+    <Box bgcolor="white" width="100%" height={80} mb={3} boxShadow={3}>
       <Stack direction="row" width="100%" height="100%">
         {/* Logo */}
         <Typography
@@ -25,6 +25,7 @@ const Navbar = () => {
             <Button
               key={item.id}
               sx={{
+                position: "relative",
                 width: "100%",
                 color: "black",
                 borderBottom: item.id === 1 ? 4 : 0,
@@ -32,6 +33,23 @@ const Navbar = () => {
               }}
             >
               {item.title}
+              {/* count */}
+              {item.id === 2 && (
+                <Stack
+                  position="absolute"
+                  top={15}
+                  right={90}
+                  width={20}
+                  height={20}
+                  borderRadius='50%'
+                  bgcolor="red"
+                  color="white"
+                  justifyContent='center'
+                  alignItems='center'
+                >
+                  9
+                </Stack>
+              )}
             </Button>
           ))}
           <Stack

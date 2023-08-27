@@ -13,8 +13,8 @@ const OptionBuy = () => {
           </Stack>
         </Box>
         {/* Buy Button */}
-        <Box>
-          <Stack direction="row" gap={1} px={1}>
+        <Box >
+          <Stack direction="row" gap={1} p={1} bgcolor='white'>
             <Button
               variant="contained"
               sx={{

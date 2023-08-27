@@ -43,14 +43,14 @@ const OptionMenu = () => {
           <Paper
             component="form"
             sx={{
-              p: "2px 4px",
+              p: "2px 2px",
               display: "flex",
               alignItems: "center",
               borderRadius: 1,
             }}
           >
             <InputBase
-              sx={{ ml: 1, width: "50px" }}
+              sx={{ ml: 1, width: "45px" }}
               placeholder='0'
               type="number"
             />
@@ -61,7 +61,7 @@ const OptionMenu = () => {
             sx={{
               color: "white",
               backgroundColor: "#E67E22",
-              width: "56%",
+              width: "70%",
               height: "35px",
             }}
           >

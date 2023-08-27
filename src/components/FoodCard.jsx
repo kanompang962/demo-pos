@@ -1,9 +1,11 @@
 import { CheckCircle, MoreVert } from "@mui/icons-material";
 import {
+  Box,
   Button,
   Card,
   CardContent,
   CardMedia,
+  IconButton,
   Stack,
   Typography,
 } from "@mui/material";
@@ -13,8 +15,8 @@ const FoodCard = ({ item }) => {
   return (
     <Card
       sx={{
-        width: { xs: "100%", md: "200px" },
-        boxShadow: "none",
+        width: { xs: "100%", md: "190px" },
+        boxShadow: 3,
         borderRadius: "6px",
         background: "transparent",
       }}
@@ -40,15 +42,17 @@ const FoodCard = ({ item }) => {
         </Stack>
       </CardMedia>
       {/* Description */}
-      <CardContent sx={{ backgroundColor: "white", height: "70px" }}>
+      <CardContent sx={{ backgroundColor: "white", height: "60px", p:1 }}>
         <Stack direction="row" justifyContent="space-between">
-          <Typography variant="subtitle1" fontWeight="semibold">
+          <Typography variant="subtitle2" fontWeight="semibold">
             {item.title && item.title.slice(0, 60)}
             <CheckCircle sx={{ fontSize: 12, color: "gray", ml: "5px" }} />
           </Typography>
-          <Button sx={{ bgcolor: "#ffcb00", color: "black" }}>
-            <MoreVert />
-          </Button>
+          <Box>
+            <Button sx={{color:'black'}}>
+              <MoreVert />
+            </Button>
+          </Box>
         </Stack>
       </CardContent>
     </Card>

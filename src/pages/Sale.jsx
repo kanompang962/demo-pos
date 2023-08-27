@@ -13,8 +13,11 @@ const Sale = () => {
       mx={3}
       sx={{ overflowX: "auto" }}
     >
+   
       <Search />
-      {/* <Divider sx={{ height: 28 }} orientation="horizontal" /> */}
+      <br />
+      <Divider  orientation="horizontal" />
+      <br />
       <Stack direction={"row"} flexWrap="wrap" gap={2} justifyContent="start">
         {foods.map((item, index) => (
           <Box key={index} sx={{ color: "white" }}>
