@@ -3,7 +3,14 @@ import React from "react";
 import { navItem } from "../contents/content";
 import { Menu } from "@mui/icons-material";
 
-const Navbar = () => {
+const Navbar = ({isMenu, setIsMenu}) => {
+
+const toggleMenuBar = () => {
+  setIsMenu((prev)=>!prev);
+}
+
+console.log(isMenu);
+
   return (
     <Box bgcolor="white" width="100%" height={80} mb={3} boxShadow={3}>
       <Stack direction="row" width="100%" height="100%">
@@ -60,7 +67,7 @@ const Navbar = () => {
               alignItems: "center",
             }}
           >
-            <Button sx={{ bgcolor: "#efefef", color: "black" }}>
+            <Button onClick={()=>toggleMenuBar()} sx={{ bgcolor: "#efefef", color: "black" }}>
               <Menu />
             </Button>
           </Stack>

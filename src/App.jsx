@@ -6,12 +6,12 @@ import Sitting from "./pages/Sitting";
 import Layout from "./layout/Layout";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [isMenu, setIsMenu] = useState(false);
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout />}>
+        <Route element={<Layout isMenu={isMenu} setIsMenu={setIsMenu} />}>
           <Route path="/" element={<Sale />} />
           <Route path="/table" element={<Sitting />} />
         </Route>
