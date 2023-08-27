@@ -1,4 +1,4 @@
-## 👨‍💻Movie TMDB
+## 👨‍💻Demo POS
 > **My App:** https://demo-pos-psi.vercel.app
 
 ## 💬Installation
