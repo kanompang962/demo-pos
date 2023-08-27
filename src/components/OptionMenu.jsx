@@ -69,7 +69,6 @@ const OptionMenu = () => {
           </Button>
         </Stack>
       </Box>
-      {/* Cart List */}
     </Stack>
   );
 };

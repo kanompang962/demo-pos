@@ -21,6 +21,7 @@ const DropdownCard = ({ place }) => {
         aria-expanded={open ? "true" : undefined}
         endIcon={<KeyboardArrowDown />}
         sx={{
+          px: 2,
           justifyContent: "space-between",
           color: "black",
           width: "100%",
