@@ -15,7 +15,7 @@ import { foods } from "../contents/content";
 
 const CartList = () => {
   return (
-    <Stack direction="column" height='56%' >
+    <Stack direction="column" height='60%' >
       {/* Header */}
       <TableContainer sx={{  height: "100%" }} component={Paper}>
         <Table aria-label="simple table" stickyHeader>

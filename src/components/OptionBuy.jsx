@@ -8,8 +8,8 @@ const OptionBuy = () => {
         {/* Total */}
         <Box>
           <Stack direction="row" px={2}>
-            <Typography width="100%">ราคารวม</Typography>
-            <Typography width="100%">1234</Typography>
+            <Typography fontWeight='bold' width="100%">ราคารวม</Typography>
+            <Typography  width="100%">1234</Typography>
           </Stack>
         </Box>
         {/* Buy Button */}

@@ -1,36 +1,34 @@
 import { Box, Button, Stack } from "@mui/material";
 import React from "react";
 import { sideItem } from "../contents/content";
-import { Hiking } from "@mui/icons-material";
 
 const SideNav = () => {
   return (
-    <Stack
-      sx={{ overflowY: "auto", boxShadow: 3 }}
-      direction="column"
-      bgcolor="white"
-      minWidth='165px'
-      height="86vh"
-      padding={3}
-      gap={2}
+    <Box
+      height={{ xs: "100%", md: "86vh" }}
+      minWidth="165px"
+      bgcolor={{ xs: "transparent", md: "white" }}
+      sx={{ overflowY: "auto", overflowX: "auto", boxShadow: { xs: 0, md: 3 } }}
     >
-      {sideItem.map((item) => (
-        <Button
-          key={item.id}
-          variant="outlined"
-          sx={{
-            color: "black",
-            backgroundColor: item.id === 1 ? "#ffcb00" : "",
-            borderColor: "#e6e6e6",
-            width: "100px",
-            minHeight: "50px",
-            borderRadius: "6px",
-          }}
-        >
-          {item.title}
-        </Button>
-      ))}
-    </Stack>
+      <Stack direction={{ xs: "row", md: "column" }} padding={3} gap={2}>
+        {sideItem.map((item) => (
+          <Button
+            key={item.id}
+            variant="outlined"
+            sx={{
+              color: "black",
+              backgroundColor: item.id === 1 ? "#ffcb00" : "white",
+              borderColor: "#e6e6e6",
+              minWidth: "100px",
+              height: "55px",
+              borderRadius: "6px",
+            }}
+          >
+            {item.title && item.title.slice(0, 12)}
+          </Button>
+        ))}
+      </Stack>
+    </Box>
   );
 };
 

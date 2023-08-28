@@ -4,17 +4,19 @@ import OptionMenu from "./OptionMenu";
 import CartList from "./CartList";
 import OptionBuy from "./OptionBuy";
 
-const Menu = () => {
+const Menu = ({ setIsMenu}) => {
   return (
     <Stack
-      sx={{ boxShadow: 3 }}
+      width={{xs:'100vw',sm:'auto'}}
+      boxShadow={3}
       direction="column"
+      justifyContent='space-between'
       bgcolor="#ECF0F1"
-      height="86vh"
-      gap={2}
+      height="100vh"
+      pb={1}
     >
       {/* Header */}
-      <OptionMenu />
+      <OptionMenu  setIsMenu={setIsMenu}/>
       {/* Center */}
       <CartList />
       {/* Footer */}

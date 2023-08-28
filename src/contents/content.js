@@ -134,6 +134,161 @@ export const foods = [{
     "width": 675,
     "price": 11.14,
     "rating": 4
+}, {
+    "title": "Brown eggs",
+    "type": "dairy",
+    "description": "Raw organic brown eggs in a basket",
+    "img": "https://images.pexels.com/photos/2831799/pexels-photo-2831799.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 600,
+    "width": 400,
+    "price": 28.1,
+    "rating": 4
+}, {
+    "title": "Sweet fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "img": "https://images.pexels.com/photos/3186961/pexels-photo-3186961.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 29.45,
+    "rating": 4
+}, {
+    "title": "Asparagus",
+    "type": "vegetable",
+    "description": "Asparagus with ham on the wooden table",
+    "img": "https://images.pexels.com/photos/351679/pexels-photo-351679.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 18.95,
+    "rating": 3
+}, {
+    "title": "Green smoothie",
+    "type": "dairy",
+    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+    "img": "https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 600,
+    "width": 399,
+    "price": 17.68,
+    "rating": 4
+}, {
+    "title": "Raw legums",
+    "type": "vegetable",
+    "description": "Raw legums on the wooden table",
+    "img": "https://images.pexels.com/photos/4963956/pexels-photo-4963956.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 17.11,
+    "rating": 2
+},
+{
+    "title": "Baking cake",
+    "type": "dairy",
+    "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+    "img": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 675,
+    "price": 11.14,
+    "rating": 4
+}, {
+    "title": "Brown eggs",
+    "type": "dairy",
+    "description": "Raw organic brown eggs in a basket",
+    "img": "https://images.pexels.com/photos/2831799/pexels-photo-2831799.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 600,
+    "width": 400,
+    "price": 28.1,
+    "rating": 4
+}, {
+    "title": "Sweet fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "img": "https://images.pexels.com/photos/3186961/pexels-photo-3186961.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 29.45,
+    "rating": 4
+}, {
+    "title": "Asparagus",
+    "type": "vegetable",
+    "description": "Asparagus with ham on the wooden table",
+    "img": "https://images.pexels.com/photos/351679/pexels-photo-351679.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 18.95,
+    "rating": 3
+}, {
+    "title": "Green smoothie",
+    "type": "dairy",
+    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+    "img": "https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 600,
+    "width": 399,
+    "price": 17.68,
+    "rating": 4
+}, {
+    "title": "Raw legums",
+    "type": "vegetable",
+    "description": "Raw legums on the wooden table",
+    "img": "https://images.pexels.com/photos/4963956/pexels-photo-4963956.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 17.11,
+    "rating": 2
+},
+{
+    "title": "Baking cake",
+    "type": "dairy",
+    "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+    "img": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 675,
+    "price": 11.14,
+    "rating": 4
+}, {
+    "title": "Brown eggs",
+    "type": "dairy",
+    "description": "Raw organic brown eggs in a basket",
+    "img": "https://images.pexels.com/photos/2831799/pexels-photo-2831799.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 600,
+    "width": 400,
+    "price": 28.1,
+    "rating": 4
+}, {
+    "title": "Sweet fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "img": "https://images.pexels.com/photos/3186961/pexels-photo-3186961.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 29.45,
+    "rating": 4
+}, {
+    "title": "Asparagus",
+    "type": "vegetable",
+    "description": "Asparagus with ham on the wooden table",
+    "img": "https://images.pexels.com/photos/351679/pexels-photo-351679.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 18.95,
+    "rating": 3
+}, {
+    "title": "Green smoothie",
+    "type": "dairy",
+    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+    "img": "https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 600,
+    "width": 399,
+    "price": 17.68,
+    "rating": 4
+}, {
+    "title": "Raw legums",
+    "type": "vegetable",
+    "description": "Raw legums on the wooden table",
+    "img": "https://images.pexels.com/photos/4963956/pexels-photo-4963956.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "height": 450,
+    "width": 299,
+    "price": 17.11,
+    "rating": 2
 },
     //   {
     //     "title": "Pesto with basil",

@@ -5,10 +5,10 @@ import DropdownCard from "./DropdownCard";
 
 const Search = () => {
   return (
-    <Stack direction="column" width="100%" gap={2}>
+    <Stack direction="column" width={{xs:'100%',md:"53vw"}} gap={2}>
       <Stack direction="row" width="100%" gap={2}>
-        <InputSearch place='ค้นหาเมนูอาหาร' />
-        <DropdownCard place='ค้นหาประเภทอาหาร'/>
+        <InputSearch place="ค้นหาเมนูอาหาร" />
+        <DropdownCard place="ค้นหาประเภทอาหาร" />
       </Stack>
       <Box>
         <Button

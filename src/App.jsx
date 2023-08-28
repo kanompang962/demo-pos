@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout isMenu={isMenu} setIsMenu={setIsMenu} />}>
-          <Route path="/" element={<Sale />} />
+          <Route path="/" element={<Sale  isMenu={isMenu} />} />
           <Route path="/table" element={<Sitting />} />
         </Route>
       </Routes>
