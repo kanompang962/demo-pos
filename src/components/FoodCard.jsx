@@ -51,7 +51,7 @@ const FoodCard = ({ item }) => {
           <Stack direction="row" justifyContent="space-between">
             <Typography variant="subtitle2" fontWeight="semibold">
               {item.title && item.title.slice(0, 60)}
-              <CheckCircle sx={{ fontSize: 12, color: "gray", ml: "5px" }} />
+              {/* <CheckCircle sx={{ fontSize: 12, color: "gray", ml: "5px" }} /> */}
             </Typography>
             <Box>
               <Button sx={{ color: "black" }}>
