@@ -17,9 +17,8 @@ const InputSearch = ({ place }) => {
         <SearchOutlined />
       </IconButton>
       <InputBase
-        sx={{ fontSize:{xs:10,md:14} ,ml: { xs: 0, md: 1 }, flex: 1 }}
+        sx={{ fontSize: { xs: 10, md: 14 }, ml: { xs: 0, md: 1 }, flex: 1 }}
         placeholder={place}
-        // inputProps={{ "aria-label": "search google maps" }}
       />
     </Paper>
   );

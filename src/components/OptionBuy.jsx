@@ -1,20 +1,25 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
+import { MyCartContext } from "../context/context";
 
 const OptionBuy = () => {
+  const { total,removeQuantity } = MyCartContext();
+
   return (
     <Box>
       <Stack direction="column" gap={2}>
         {/* Total */}
         <Box>
           <Stack direction="row" px={2}>
-            <Typography fontWeight='bold' width="100%">ราคารวม</Typography>
-            <Typography  width="100%">1234</Typography>
+            <Typography fontWeight="bold" width="100%">
+              ราคารวม
+            </Typography>
+            <Typography width="100%">{total}</Typography>
           </Stack>
         </Box>
         {/* Buy Button */}
-        <Box >
-          <Stack direction="row" gap={1} p={1} bgcolor='white'>
+        <Box>
+          <Stack direction="row" gap={1} p={1} bgcolor="white">
             <Button
               variant="contained"
               sx={{
@@ -27,6 +32,7 @@ const OptionBuy = () => {
               ฟรี
             </Button>
             <Button
+              onClick={() => removeQuantity()}
               variant="contained"
               sx={{
                 flex: 1,
@@ -54,6 +60,7 @@ const OptionBuy = () => {
               พักบิล
             </Button>
             <Button
+              onClick={() => removeQuantity()}
               sx={{ color: "black", bgcolor: "white", flex: 1, boxShadow: 1 }}
             >
               ยกเลิกบิล
